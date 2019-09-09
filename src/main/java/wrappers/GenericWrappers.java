@@ -98,7 +98,7 @@ public class GenericWrappers extends Reporter implements Wrappers {
 
 			// this is for grid run
 			if(bRemote)
-				driver = new RemoteWebDriver(new URL("http://"+sHubUrl+":"+sHubPort+"/wd/hub"), dc);
+				driver = new RemoteWebDriver(new URL("http://"+sHubUrl+":"+sHubPort+"/wd/hub/"), dc);
 			else{ // this is for local run
 				if(browser.equalsIgnoreCase("chrome")){
 					System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
