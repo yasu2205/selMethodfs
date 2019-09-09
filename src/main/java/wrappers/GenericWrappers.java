@@ -91,7 +91,8 @@ public class GenericWrappers extends Reporter implements Wrappers {
 	public void invokeApp(String browser, boolean bRemote) {
 		try {
 
-			DesiredCapabilities dc = new DesiredCapabilities();
+			new DesiredCapabilities();
+			DesiredCapabilities dc = DesiredCapabilities.chrome();
 			dc.setBrowserName(browser);
 			dc.setPlatform(Platform.WINDOWS);
 			
