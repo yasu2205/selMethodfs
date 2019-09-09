@@ -28,7 +28,7 @@ public class LeafTapsWrappers extends GenericWrappers {
 		test = startTestCase(testCaseName, testDescription);
 		test.assignCategory(category);
 		test.assignAuthor(authors);
-		invokeApp(browserName);
+		invokeApp(browserName,true);
 	}
 		
 	@AfterSuite
