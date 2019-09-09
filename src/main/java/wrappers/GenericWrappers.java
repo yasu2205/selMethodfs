@@ -488,23 +488,23 @@ public class GenericWrappers extends Reporter implements Wrappers {
 //	}
 
 
-	public void selectVisibileTextByXPath(String xpath, String value) {
-		try{
-			new Select(driver.findElement(By.xpath(xpath))).selectByVisibleText(value);;
-			reportStep("The element with xpath: "+xpath+" is selected with value :"+value, "PASS");
-		} catch (Exception e) {
-			reportStep("The value: "+value+" could not be selected.", "FAIL");
-		}
-	}
+//	public void selectVisibileTextByXPath(String xpath, String value) {
+//		try{
+//			new Select(driver.findElement(By.xpath(xpath))).selectByVisibleText(value);;
+//			reportStep("The element with xpath: "+xpath+" is selected with value :"+value, "PASS");
+//		} catch (Exception e) {
+//			reportStep("The value: "+value+" could not be selected.", "FAIL");
+//		}
+//	}
 
-	public void selectIndexById(String id, int value) {
-		try{
-			new Select(driver.findElement(By.id(id))).selectByIndex(value);
-			reportStep("The element with id: "+id+" is selected with index :"+value, "PASS");
-		} catch (Exception e) {
-			reportStep("The index: "+value+" could not be selected.", "FAIL");
-		}
-	}
+//	public void selectIndexById(String id, int value) {
+//		try{
+//			new Select(driver.findElement(By.id(id))).selectByIndex(value);
+//			reportStep("The element with id: "+id+" is selected with index :"+value, "PASS");
+//		} catch (Exception e) {
+//			reportStep("The index: "+value+" could not be selected.", "FAIL");
+//		}
+//	}
 
 	/**
 	 * This method will switch to the parent Window

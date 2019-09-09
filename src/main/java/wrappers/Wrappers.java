@@ -154,7 +154,7 @@ public interface Wrappers {
 		 * @param value The value to be selected (visibletext) from the dropdown 
 		 * @author Babu - TestLeaf
 		 */
-		public void selectIndexById(String id, int value) throws Exception;
+//		public void selectIndexById(String id, int value) throws Exception;
 		
 		/**
 		 * This method will switch to the parent Window
