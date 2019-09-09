@@ -146,7 +146,7 @@ public interface Wrappers {
 		 * @param value The value to be selected (visibletext) from the dropdown 
 		 * @author Babu - TestLeaf
 		 */
-		public void selectVisibileTextById(String id, String value) throws Exception;
+//		public void selectVisibileTextById(String id, String value) throws Exception;
 		
 		/**
 		 * This method will select the drop down using index as id locator
