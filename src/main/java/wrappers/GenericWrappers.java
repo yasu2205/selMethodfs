@@ -477,15 +477,15 @@ public class GenericWrappers extends Reporter implements Wrappers {
 	 * @param value The value to be selected (visibletext) from the dropdown 
 	 * @author Babu - TestLeaf
 	 */
-	public void selectVisibileTextById(String id, String value) {
-		try{
-			new Select(driver.findElement(By.id(id))).selectByVisibleText(value);;
-			reportStep("The element with id: "+id+" is selected with value :"+value, "PASS");
-		} catch (Exception e) {
-			reportStep("The value: "+value+" could not be selected.", "FAIL");
-		}
-		
-	}
+//	public void selectVisibileTextById(String id, String value) {
+//		try{
+//			new Select(driver.findElement(By.id(id))).selectByVisibleText(value);;
+//			reportStep("The element with id: "+id+" is selected with value :"+value, "PASS");
+//		} catch (Exception e) {
+//			reportStep("The value: "+value+" could not be selected.", "FAIL");
+//		}
+//		
+//	}
 
 
 	public void selectVisibileTextByXPath(String xpath, String value) {
