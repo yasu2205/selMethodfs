@@ -4,7 +4,7 @@
 	<test name="StringExcercise_testSuite" thread-count="5">
 		<groups>
 			<run>
-				<include name="monday" />
+				<include name="tuesday" />
 			</run>
 		</groups>
 		<packages>
