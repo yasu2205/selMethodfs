@@ -4,9 +4,11 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.testng.annotations.Test;
+@Test(groups = "monday")
 public class StringExcercise {
-
-	public static void main(String[] args) {
+	
+	public static void stringExc() {
 String name = "Hi Hi Hey Hi Hey there There";
 String[] names = name.split(" ");
 System.out.println(names[2]);
